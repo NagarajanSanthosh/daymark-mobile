@@ -1,0 +1,32 @@
+export const colors = {
+  night950: '#05080f',
+  night900: '#0a101c',
+  night800: '#111827',
+  night700: '#1a2438',
+  night600: '#243049',
+  mist50: '#f5f7fb',
+  mist100: '#e8edf5',
+  mist300: '#a8b3c7',
+  mist400: '#7f8ca3',
+  mist500: '#5c6b84',
+  sun300: '#ffd27a',
+  sun400: '#ffc45a',
+  sun500: '#f0a43a',
+  sun600: '#d8891f',
+  twilight300: '#a8b4f0',
+  twilight400: '#8b9ae8',
+  twilight500: '#6b7fd7',
+  dusk500: '#c45a32',
+  dusk600: '#a34428',
+  white: '#ffffff',
+  black: '#000000',
+} as const
+
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 24,
+  xxl: 32,
+} as const
